@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sigunp_background">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="72dp"
+        android:text="Transaction Amount"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/recipientPhoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:hint="Recipient's Phone Number" />
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recipientPhoneNumberEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="22dp"
+        android:hint="Amount"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amountEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Convert" />
+</RelativeLayout>

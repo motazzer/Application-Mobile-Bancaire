@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Banque</string>
+    <string-array name="account_types">
+        <item>THE CHEQUING ACCOUNT IN DINARS</item>
+        <item>THE BUSINESS ACCOUNT</item>
+        <item>THE NON-RESIDENT DOMESTIC ACCOUNT</item>
+    </string-array>
+    <string-array name="currency_options">
+        <item>Euro</item>
+        <item>Dollar</item>
+        <item>Dirham</item>
+        <item>Lira</item>
+        <item>Pound</item>
+        <item>Yen</item>
+        <item>Rupee</item>
+        <item>Franc</item>
+        <item>Australian Dollar</item>
+        <item>Canadian Dollar</item>
+        <item>Swiss Franc</item>
+        <item>Chinese Yuan</item>
+        <item>Swedish Krona</item>
+        <item>Norwegian Krone</item>
+        <item>Brazilian Real</item>
+        <item>Indian Rupee</item>
+        <item>South African Rand</item>
+        <item>Mexican Peso</item>
+        <item>Singapore Dollar</item>
+        <item>Hong Kong Dollar</item>
+        <item>New Zealand Dollar</item>
+        <item>Russian Ruble</item>
+        <item>Turkish Lira</item>
+        <item>South Korean Won</item>
+        <item>Indonesian Rupiah</item>
+        <item>Malaysian Ringgit</item>
+        <item>Thai Baht</item>
+        <item>Danish Krone</item>
+        <item>Polish Złoty</item>
+        <item>Hungarian Forint</item>
+        <item>Czech Koruna</item>
+        <item>Israeli Shekel</item>
+        <item>Saudi Riyal</item>
+        <item>UAE Dirham</item>
+        <item>Chilean Peso</item>
+        <item>Argentine Peso</item>
+    </string-array>
+</resources>
